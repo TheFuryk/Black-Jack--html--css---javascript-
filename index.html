@@ -5,10 +5,15 @@
     <body>
         <h1>Blackjack</h1>
         <p id="message-el">Want to play a round?</p>
-        <p>Cards:</p>
-        <p>Sum:</p>
-        <!-- 1. Create a button that says START GAME. 
-        Make it call a startGame() function when clicked -->
+        <p id="cards-el">Cards:</p>
+        <p id="sum-el">Sum:</p>
+        <button onclick="startGame()" class="start" id="start-game"> START GAME</button>
+
+        <!-- 1. Create a NEW CARD button, make it run newCard() on click -->
+         <button onclick="newCard()" class="start" id="new-card">NEW CARD</button>
+         <p id="player-el"></p>
         <script src="index.js"></script>
     </body>
 </html>
+
+   <!-- 1. Give the cards paragraph and id of cards-el -->
